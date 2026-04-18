@@ -27,4 +27,4 @@ Kernel = rbf
 Gamma = scale  
 
 ## Conclusion
-Hyperparameter tuning improved model performance.
+The tuned model achieved the same accuracy as the default model because the default hyperparameters of SVM were already optimal for this dataset. This indicates that GridSearchCV successfully validated the best parameter combination rather than improving performance significantly.
